@@ -1,10 +1,13 @@
-﻿namespace Bank_No_Database
+﻿using Bank_No_Database.Methods;
+
+namespace Bank_No_Database
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            Menus.RunProgram();
         }
     }
 }
